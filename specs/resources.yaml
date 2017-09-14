@@ -1,16 +1,31 @@
----
-usage_report:
-  format: string
-engine_report:
-  format: string
-device_info:
-  format: string
-engine_fetch:
-  format: string
-fetch_status:
-  format: string
-update_interval:
-  format: string
-sensors_report:
-  format: string
+# Murano Product Spec File - Stock GWE Resources:
 
+resources:
+-   alias: usage_report
+    format: string
+    settable: false
+    units: ''
+-   alias: engine_report
+    format: string
+    settable: false
+    units: ''
+-   alias: device_info
+    format: string
+    settable: false
+    units: ''
+-   alias: engine_fetch
+    format: string
+    settable: true
+    units: ''
+-   alias: fetch_status
+    format: string
+    settable: false
+    units: ''
+-   alias: update_interval
+    format: string
+    settable: true
+    units: ''
+-  alias:  sensors_report
+    format: string
+    settable: false
+    units: ''
