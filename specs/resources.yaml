@@ -2,30 +2,37 @@
 
 resources:
 -   alias: usage_report
+    allowed: []
     format: string
     settable: false
-    units: ''
+    unit: ''
 -   alias: engine_report
+    allowed: []
     format: string
     settable: false
-    units: ''
+    unit: ''
 -   alias: device_info
+    allowed: []
     format: string
     settable: false
-    units: ''
+    unit: ''
 -   alias: engine_fetch
+    allowed: []
     format: string
     settable: true
-    units: ''
+    unit: ''
 -   alias: fetch_status
+    allowed: []
     format: string
     settable: false
-    units: ''
+    unit: ''
 -   alias: update_interval
+    allowed: []
     format: string
     settable: true
-    units: ''
+    unit: ''
 -  alias:  sensors_report
+    allowed: []
     format: string
     settable: false
-    units: ''
+    unit: ''

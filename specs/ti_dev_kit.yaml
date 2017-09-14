@@ -2,22 +2,27 @@
 
 resources:
 -   alias: usrsw1
+    allowed: []
     format: number
     settable: false
-    units: ''
+    unit: ''
 -   alias: usrsw2
+    allowed: []
     format: number
     settable: false
-    units: ''
+    unit: ''
 -   alias: temp
+    allowed: []
     format: number
     settable: false
-    units: ''
+    unit: ''
 -   alias: ontime
+    allowed: []
     format: number
     settable: false
-    units: ''
+    unit: ''
 -   alias: led
+    allowed: []
     format: string
     settable: true
-    units: ''
+    unit: ''
