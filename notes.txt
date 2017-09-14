@@ -1,0 +1,30 @@
+{
+    "connection_id": "pfUuEIsqWQBokqjY2k5o",
+    "identity": "02:53:76:32:60:52",
+    "ip": "54.187.184.6",
+    "payload": [{
+        "timestamp": 1.501093292043013e+15,
+        "values": {
+            "humidity": "49.4",
+            "temperature": "70.9",
+            "uptime": "1287"
+        }
+    }],
+    "protocol": "onep",
+    "timestamp": 1.501093292048249e+15,
+    "type": "data_in"
+}
+
+sci_note_ts = event.payload[1].timestamp
+for alias, value in pairs(event.payload[1].values) do
+    print(alias .. " is " .. tostring(value))
+end
+
+
+curl 'https://martin-board.apps.exosite.io/tsdb/metrics'
+
+{"metrics":["device_info","engine_report","humidity","temperature","uptime","usage_report"],"solution_id":"t3t2mj1xyqvmss4gw","total":6}
+
+
+
+curl 'https://martin-board.apps.exosite.io/data/02:53:76:32:60:52/temperature'

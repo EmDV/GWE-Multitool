@@ -5,6 +5,7 @@
 local db = request.body
 local ex, err = to_json(db)
 if ex ~= nil then
+  print(ex)
 	local got = Keystore.set{key='dashboard.0', value=ex}
 	if got.code ~= nil then
 		response.code = got.code
