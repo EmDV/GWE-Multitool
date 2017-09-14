@@ -1,12 +1,12 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+GWEMultitool.murano
 Icon
 *.sw[a-z]
 tags
 
-.mrmurano/
-.mrmuranorc.*
+.murano/
 .env
 
 # Thumbnails

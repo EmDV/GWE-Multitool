@@ -5,7 +5,11 @@ info:
   name: GWEMultitool
 
   # Short one line summary of this project.
+<<<<<<< HEAD
   summary: One line summary of GWEMultitool
+=======
+  summary: Solution for quickly getting data visualized
+>>>>>>> f0beb0a7fb1f42317b6c19d6b2bb47079765ad27
 
   # Longer, multiple paragraph explanation.
   description: |
@@ -14,7 +18,11 @@ info:
     With lots of details.
 
   # Who made this
+<<<<<<< HEAD
   authors: ["martindavis@exosite.com"]
+=======
+  authors: ["miketilstra@exosite.com"]
+>>>>>>> f0beb0a7fb1f42317b6c19d6b2bb47079765ad27
 
   # The version of the Project
   version: 1.0.0
