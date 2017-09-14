@@ -1,7 +1,3 @@
-<<<<<<< HEAD
---#EVENT device2 event
-return Interface.trigger({event="event", data=event})
-=======
 --#EVENT {product.id} event
 -- luacheck: globals event (magic variable from Murano)
 
@@ -102,4 +98,3 @@ for _, tsval in ipairs(event.payload) do
 end
 
 -- vim: set ai sw=2 ts=2 :
->>>>>>> f0beb0a7fb1f42317b6c19d6b2bb47079765ad27
