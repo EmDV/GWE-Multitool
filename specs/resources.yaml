@@ -1,38 +1,26 @@
-# Murano Product Spec File - Stock GWE Resources:
-
 ---
-  usage_report:
-    allowed: []
-    format: string
-    settable: false
-    unit: ''
-  engine_report:
-    allowed: []
-    format: string
-    settable: false
-    unit: ''
-  device_info:
-    allowed: []
-    format: string
-    settable: false
-    unit: ''
-  engine_fetch:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  fetch_status:
-    allowed: []
-    format: string
-    settable: false
-    unit: ''
-  update_interval:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-   sensors_report:
-    allowed: []
-    format: string
-    settable: false
-    unit: ''
+led:
+  allowed: []
+  format: string
+  settable: true
+  unit: ''
+ontime:
+  allowed: []
+  format: number
+  settable: false
+  unit: ''
+temp:
+  allowed: []
+  format: number
+  settable: false
+  unit: ''
+usrsw1:
+  allowed: []
+  format: number
+  settable: false
+  unit: ''
+usrsw2:
+  allowed: []
+  format: number
+  settable: false
+  unit: ''

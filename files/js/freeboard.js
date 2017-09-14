@@ -536,16 +536,18 @@ function FreeboardModel(datasourcePlugins, widgetPlugins, freeboardUI)
 
 	this.saveDashboardClicked = function(){
 		var dbstr = JSON.stringify(self.serialize())
+		console.log("files/js/freeboard.js was run ");,
 		$.ajax({
 			url: '/v1/dashboard',
 			type: 'POST',
 			contentType: 'application/json',
 			data: dbstr,
-
+			
 			error: function(xhr, status, error){
 				console.log(error);
 			}
 		});
+		alert("I am an alert box!");
 	}
 
 

@@ -14,10 +14,10 @@ local metrics = {
 local tags = {
   identity = identifier
 }
-local query = {
-  metrics = metrics,
-  tags = tags
-}
+-- local query = {
+--   metrics = metrics,
+--   tags = tags
+-- }
 
 local out = Tsdb.query({
   metrics = {alias},

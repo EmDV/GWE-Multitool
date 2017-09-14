@@ -11,7 +11,7 @@ local metrics = Tsdb.listMetrics()
 local out = Tsdb.query{
   tags={sn=identifier},
   metrics=metrics.metrics,
-  limit = 100,
+  limit = 10,
   epoch = 'ms',
 }
 

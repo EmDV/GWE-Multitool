@@ -8,11 +8,11 @@ local function injectDatasources(datasources)
 	end
 
 	for _, sn in ipairs(ret.value) do
-		local name = 'GWE Info ' .. sn
+		local name = sn .. ' GWE'
 		local idx, _ = table.find(datasources, 'name', name)
 		if idx == nil then
 			local ads = {
-				name = 'GWE Info ' .. sn,
+				name = sn .. ' GWE',
 				type = 'JSON',
 				settings = {
 					method = 'GET',
@@ -24,11 +24,11 @@ local function injectDatasources(datasources)
 			datasources[#datasources + 1] = ads
 		end
 
-		name = 'Data ' .. sn
+		name = sn .. ' Timeseries'
 		idx, _ = table.find(datasources, 'name', name)
 		if idx == nil then
 			local ads = {
-				name = 'Data ' .. sn,
+				name = sn .. ' Timeseries',
 				type = 'JSON',
 				settings = {
 					method = 'GET',
