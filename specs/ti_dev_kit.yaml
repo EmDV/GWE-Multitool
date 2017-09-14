@@ -1,27 +1,27 @@
 # Murano Product Spec File - TI MSP432E4 Development Kit.
-
-resources:
--   alias: usrsw1
+ 
+---
+  usrsw1:
     allowed: []
     format: number
     settable: false
     unit: ''
--   alias: usrsw2
+  usrsw2:
     allowed: []
     format: number
     settable: false
     unit: ''
--   alias: temp
+  temp:
     allowed: []
     format: number
     settable: false
     unit: ''
--   alias: ontime
+  ontime:
     allowed: []
     format: number
     settable: false
     unit: ''
--   alias: led
+  led:
     allowed: []
     format: string
     settable: true
